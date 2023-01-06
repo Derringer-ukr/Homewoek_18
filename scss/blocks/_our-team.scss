@@ -1,0 +1,140 @@
+.our-team {
+   padding: 8.4vw 9.375vw;
+   
+   &__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+
+      &-sub {
+         margin-bottom: 15px;
+
+         @media screen and (max-width: $tablet-start) {
+            margin-bottom: 10px;
+        }
+
+         @media screen and (min-width: $desktop-big-start) {
+            margin-bottom: 1.042vw;
+         }
+      }
+      
+
+      &-main {
+         margin-bottom: 40px;
+
+          
+         @media screen and (max-width: $tablet-start) {
+            margin-bottom: 20px;
+        }
+      }
+
+      &-divider {
+         display: flex;
+         width: 31.25vw;
+         align-items: center;
+
+         @media screen and (max-width: $tablet-start) {
+           width: 60%;
+        }
+      }
+   }
+
+   &__profile-wrapper {
+      display: flex;
+
+      @media screen and (max-width: $tablet-start) {
+            flex-direction: column;;
+         }
+   }
+
+   &__photo-container {
+      padding: 4.51vw 5.9vw 4.51vw 4.86vw;
+      border-right: 1px solid $color-primary;
+
+      @media screen and (max-width: $tablet-start) {
+         border-right: none;
+         padding: 0;
+         margin-bottom: 20px;
+         display: flex;
+         justify-content: center;     
+         }
+   }
+
+   &__photo {
+      width: 29.86vw;
+
+      @media screen and (max-width: $tablet-start) {
+            width: 100%;
+            max-width: 430px;
+         }
+
+   }
+   &__person-about {
+      padding: 4.86vw 4.86vw 4.86vw 5.9vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      width: 29.79vw;
+
+      @media screen and (max-width: $tablet-start) {
+            width: auto;
+         }
+   }
+
+   &__name {
+      margin-bottom: 30px;
+      text-align: center;
+
+      @media screen and (min-width: $desktop-big-start) {
+         margin-bottom: 2.083vw;
+      }
+   }
+
+   &__position {
+      margin: 30px 0;
+
+      @media screen and (min-width: $desktop-big-start) {
+         margin: 2.083vw 0;
+      }
+   }
+
+   &__biography {
+      margin: 49px 0 20px;
+
+   @media screen and (max-width: $tablet-start) {
+      margin: 20px 0 10px;
+      }
+   @media screen and (min-width: $desktop-big-start) {
+      margin: 3.403vw 0 1.389vw;
+   }
+   }
+
+   &__btn {
+      margin-top: 25px;
+      padding: 5px 10px;
+      border: 1px solid $color-primary;
+      background-color: transparent;
+      cursor: pointer;
+
+      @media screen and (min-width: $desktop-big-start) {
+         padding: 0.347vw 0.694vw;
+      }
+      @media screen and (min-width: $desktop-big-start) {
+         margin-top: 1.736vw;
+      }
+   }
+
+   &__divider-biography-wrapper {
+      display: flex;
+      gap: 5px;
+   }
+
+   &__socials svg {
+      @media screen and (min-width: $desktop-big-start) {
+         height: 2.083vw;
+         width: 2.083vw;
+      }
+   }
+}
+

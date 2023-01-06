@@ -1,0 +1,21 @@
+// fonts
+
+$primary-text: 'Raleway', sans-serif;
+$primary-title: 'Roboto', sans-serif;
+$primary-button: 'Open Sans', sans-serif;
+
+// colors
+
+$color-primary: #FFCC00;
+$color-subtitle: #898F8F;
+$color-title: #666666;
+$color-text: #333333;
+
+// breakpoints
+
+$desktop-big-start: 1441px;
+$desktop: 1440px;
+$tablet-end: $desktop - 1;
+$tablet-start: 768px;
+$mobile-end: $tablet-start - 1;
+$mobile: 320px;
